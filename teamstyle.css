@@ -1,0 +1,43 @@
+
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container1 {
+  padding: 2px 16px;
+  width:500px ;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-left: 84px;
+  margin-right: 84px;
+  margin-top: 20px;
+  background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHCggIBwcGBwYGDQ0HBgYGBg8ICQYWFBEiIhURExMYHCggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAADAAECB//EABYQAQEBAAAAAAAAAAAAAAAAAAACAf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDydJAxJAkkCY1gJJAlqWgxJAkkC1jdYDXcuHcgSSYOSYBZJg5JgEkuCkuASSSOSSBZJI5JIEkkjkkgWSSOSSBJLIpLIEwmDwmA8ySQMSQJJAmNYCSQJaloMSQJJAtY3WA13Lh3IEkmDkmAWSYOSYBJLgpLgEkkjkkgWSSOSSBJJI5JIFkkjkkgSSyKSyBMJg8JgPMkkDEkCSQJjWAkkCWpaDEkCSQLWN1gNdy4dyBJJg5JgFkmDkmASS4KS4BJJI5JIFkkjkkgSSSOSSBZJI5JIEksiksgTCYPCYDzJJAxJAkkCY1gJJAlqWgxJAkkC1jdYDXcuHcgSSYOSYBZJg5JgEkuCkuASSSOSSBZJI5JIEkkjkkgWSSOSSBJLIpLIEwmDwmA8ySQMSQJJAmNYCSQJaloMSQJJAtY3WA13Lh3IEkmDkmAWSYOSYBJLgpLgEkkjkkgWSSOSSBJJI5JIFkkjkkgSSyKSyBMJg8JgPMkkDEkCSQJjWAkkCWpaDEkCSQLWN1gNdy4dyBJJg5JgFkmDkmASS4KS4BJJI5JIFkkjkkgSSSOSSBZJI5JIEksiksgTCYPCYDzJJAxJAkkCY1gJJAlqWgxJAkkC1jdYDXcuHcgSSYOSYBZJg5JgEkuCkuASSSOSSBZJI5JIEkkjkkgWSSOSSBJLIpLIEwmDwmA8ySQMSQJJAmNYCSQJaloMSQJJAtY3WA13Lh3IEkmDkmAWSYOSYBJLgpLgEkkjkkgWSSOSSBJJI5JIFkkjkkgSSyKSyBMJg8JgPMkkDEkCSQJjWAkkCWpaDEkCSQLWN1gNdy4dyBJJg5JgFkmDkmASS4KS4BJJI5JIFkkjkkgSSSOSSBZJI5JIEksiksgTCYPCYDzJJAxJAkkCY1gJJAlqWgxJAkkC1jdYDXcuHcgSSYOSYBZJg5JgEkuCkuASSSOSSBZJI5JIEkkjkkgWSSOSSBJLIpLIEwmDwmA8ySQMSQJJAmJAkkCWpAxJAkkC1iQNdykBJJiQFkmJASS4kBJJKQFkkpASSS1ASSSkBJLLEBcJjED/9k=');
+
+}
+body{
+  background-image: url("https://i.pinimg.com/originals/0b/6c/3c/0b6c3c9f90c7971740ff18ce11feb829.jpg");
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 50px 5px 0 0;
+}
+
+.st1{
+  font-family: "Lobster", monospace;
+  color: white;
+}
+.st2{
+  font-family: "Lobster";
+  color: white;
+}
+.t1{
+  font-family: "Georgia";
+  color: white;
+}

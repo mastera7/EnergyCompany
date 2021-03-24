@@ -1,0 +1,84 @@
+body{
+  background-color: black;
+}
+h3{
+  color: white;
+}
+/**/
+.green{
+  color: green;
+}
+.white{
+  color:white;
+}
+.color1{
+  color: #BAE3B1
+}
+.color2{
+  color:#D0D974;
+}
+.color3{
+  color:#85CE7E;
+}
+.color4{
+  color:#ECEED7;
+}
+.para {
+  color:#BCBDAE;
+}
+.rava{
+  color: #FAEBD7;
+}
+.text-uppercase{
+  color:#ECEED7;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    text-transform: uppercase;
+    padding: 25px;
+    color: white;
+}
+
+.header_area .main-menu .navbar-nav a:hover{ /* Когда мышка наводится оно светится */
+    background:  #8EB6DA;
+    -webkit-background-clip: text; /* только текст закрашивается а не фон */
+    -webkit-text-fill-color: transparent; /* Когда мышка наводится оно светится зеленым  */
+
+}
+
+
+/**/
+
+.site-main .site-banner .site-title h3{
+    color: white;
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h1{
+  color: white;
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+
+/**/
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    letter-spacing: 21px;
+}
+
+/**/
+
+.site-main .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.active{
+background-color: #717171;
+}
